@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26621.2
+VisualStudioVersion = 15.0.26711.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TugOfWar-CSharp", "TugOfWar-CSharp\TugOfWar-CSharp.csproj", "{E514750E-B287-4AF4-BC68-E756569E9A7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{D7A0CB0D-FF4E-4B8C-A9E6-EE0151B0F9C0}"
+	ProjectSection(SolutionItems) = preProject
+		Client\functions-logo.png = Client\functions-logo.png
+		Client\index.html = Client\index.html
+		Client\index.js = Client\index.js
+		Client\play.html = Client\play.html
+		Client\play.js = Client\play.js
+		Client\style.css = Client\style.css
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

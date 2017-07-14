@@ -1,0 +1,28 @@
+#logoTop {
+    width: 20px;
+}
+#gameArea {
+    position:relative;
+    height: 100px;
+    border-left: 2px dashed #000;
+    border-right: 2px dashed #000;
+}
+#logo {
+    width: 100px; 
+    position: absolute;
+    /*left: 300px;*/
+}
+.teamNameDisplay {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 5px;
+}
+.winner {
+    background-color: green;
+    padding: 10px;
+    color: #fff;
+}
+#debugPanel {
+    display: none;
+    visibility: hidden;
+}

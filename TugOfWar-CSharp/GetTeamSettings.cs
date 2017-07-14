@@ -23,10 +23,10 @@ namespace TugOfWarCSharp
 
             // Get Team Settings
             TableQuery<TeamSetting> query = new TableQuery<TeamSetting>().Take(1);
-            var data = inTable.ExecuteQuery(query).Take(1);
-
+            TeamSetting ts = inTable.ExecuteQuery(query).FirstOrDefault();
+            
             // Return team settings
-            return req.CreateResponse(HttpStatusCode.OK, data);
+            return req.CreateResponse(HttpStatusCode.OK, ts);
 
         }
     }
